@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.all_unset {
+  all: unset;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #222;
+  background: rgb(221, 221, 221);
+}
+
+.App {
+  max-width: 728px;
+  margin: 4rem auto;
+  
+}
+
+.App > h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.Card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  padding: 0.5rem 1rem;
+}
+
+.Card:not(:last-child) {
+  border-bottom: 1px solid #184743;
+}
+
+.Card h1 {
+  color: #10a195;
+  text-transform: capitalize;
+}
+
+.Form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #333;
+  margin-bottom: 1rem;
+}
+
+.Form > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Form input {
+  background: rgb(39, 39, 39);
+  padding: 0.5rem 1rem;
+  border: 1px solid #184743;
+  color: #fff;
+  border-radius: 10px;
+  display: block;
+  margin: 0.3rem 1rem 0 0;
+  outline: none;
+}
+
+.Form button {
+  background: #0dbbac;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.react-time-picker__wrapper {
+  border-radius: 3px;
+  padding: 6px 10px;
+}
