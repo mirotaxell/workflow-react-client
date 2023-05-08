@@ -3,6 +3,8 @@
 
 WorkFlow is a React web application that uses GraphQL as its API. The app is designed to help companies track employee hours, job progress, and inventory levels. The app is built with Node.js and a GraphQL API, with a NoSQL database (MongoDB) for storing employee and job data.
 
+Hosted on [Firebase](https://workflow-60346.web.app/#)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
